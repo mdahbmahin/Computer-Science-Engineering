@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>OP7_Conditional_or_Ternary_Demo.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+pre {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+table {color: #888888; background-color: #313335; font-family: Monospaced}
+.whitespace {color: #505050}
+.keyword-directive {color: #cc7832}
+.comment {color: #808080}
+.character {color: #6a8759}
+.ST1 {color: #9876aa; font-family: Monospaced; font-style: italic}
+.ST0 {color: #ffc66d; font-family: Monospaced; font-style: italic}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">C:\Users\MD MAHIN HOSSAIN\Documents\NetBeansProjects\MainCode1\src\MainCodePackage\OP7_Conditional_or_Ternary_Demo.java</td></tr></table>
+<pre>
+ 1 <span class="comment">// index : Conditional or ternary operator method .</span>
+ 2 <span class="keyword-directive">package</span> MainCodePackage ;  <span class="comment">//name of package under the project .</span>
+ 3 <span class="comment">//* @Author and code written by MD MAHIN HOSSAIN</span>
+ 4 <span class="comment">// Code Compile date : 16:6:2019:: 09:51:24.9 pm</span>
+ 5 <span class="keyword-directive">import</span> java.util.Scanner ;   <span class="comment">//must need import scanner system for user input .</span>
+ 6 
+ 7  <span class="keyword-directive">public</span> <span class="keyword-directive">class</span> OP7_Conditional_or_Ternary_Demo {
+ 8      <span class="keyword-directive">public</span> <span class="keyword-directive">static</span> <span class="keyword-directive">void</span> <span class="ST0">main</span> ( String[ ] args ) {
+ 9          
+10          Scanner input = <span class="keyword-directive">new</span> Scanner ( System.<span class="ST1">in</span> ) ;  <span class="comment">//scanner variable .           </span>
+11         <span class="keyword-directive">double</span> x  ;
+12         <span class="keyword-directive">double</span> y ;  
+13         <span class="keyword-directive">double</span> large ;
+14         System.<span class="ST1">out</span>.print ( <span class="character">&quot;</span><span class="character">Enter the number 1 : </span><span class="character">&quot;</span> ) ;
+15         x = input.nextDouble ( ) ;       
+16         System.<span class="ST1">out</span>.print ( <span class="character">&quot;</span><span class="character">Enter the number 2 : </span><span class="character">&quot;</span> ) ;
+17         y = input.nextDouble ( ) ;   
+18         
+19         large = ( x &gt; y )? x : y ;
+20         
+21 System.<span class="ST1">out</span>.println(<span class="character">&quot;</span><span class="character">Your large number is : </span><span class="character">&quot;</span> + large ) ;
+22 System.<span class="ST1">out</span>.println(<span class="character">&quot;</span><span class="character">If( x &gt; y )condition is true,outcome result will be x </span><span class="character">&quot;</span> ) ;
+23 System.<span class="ST1">out</span>.println(<span class="character">&quot;</span><span class="character">If(x &gt; y )condition is false,outcome result will be y </span><span class="character">&quot;</span> ) ;
+24          
+25          
+26      }
+27 }
+28 <span class="comment">//___output :</span>
+29 <span class="comment">//Enter the number 1 : 50</span>
+30 <span class="comment">//Enter the number 2 : 5</span>
+31 <span class="comment">//Your large number is : 50.0</span>
+32 <span class="comment">//If( x &gt; y )condition is true,outcome result will be x </span>
+33 //If(x &gt; y )condition is false,outcome result will be y 
+</pre></body>
+</html>

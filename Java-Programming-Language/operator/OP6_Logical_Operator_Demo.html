@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>OP6_Logical_Operator_Demo.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+pre {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+table {color: #888888; background-color: #313335; font-family: Monospaced}
+.whitespace {color: #505050}
+.keyword-directive {color: #cc7832}
+.comment {color: #808080}
+.character {color: #6a8759}
+.ST1 {color: #9876aa; font-family: Monospaced; font-style: italic}
+.ST0 {color: #ffc66d; font-family: Monospaced; font-style: italic}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">C:\Users\MD MAHIN HOSSAIN\Documents\NetBeansProjects\MainCode1\src\MainCodePackage\OP6_Logical_Operator_Demo.java</td></tr></table>
+<pre>
+ 1 <span class="comment">// index : Logical operator method .</span>
+ 2 <span class="keyword-directive">package</span> MainCodePackage ; <span class="comment">//name of package under the project .</span>
+ 3 <span class="keyword-directive">import</span> java.util.Scanner ; <span class="comment">//must need import scanner system for user input .</span>
+ 4 <span class="comment">//* @Author and code written by MD MAHIN HOSSAIN</span>
+ 5 <span class="comment">// Code Compile date : 16:6:2019:: 09:37:45.7 pm</span>
+ 6 <span class="keyword-directive">public</span> <span class="keyword-directive">class</span> OP6_Logical_Operator_Demo {   
+ 7     <span class="keyword-directive">public</span> <span class="keyword-directive">static</span> <span class="keyword-directive">void</span> <span class="ST0">main</span> ( String[ ] args ) {       
+ 8         Scanner input = <span class="keyword-directive">new</span> Scanner ( System.<span class="ST1">in</span> ) ;  <span class="comment">//scanner variable .       </span>
+ 9         <span class="keyword-directive">double</span> number1  ;
+10         <span class="keyword-directive">double</span> number2  ;       
+11         System.<span class="ST1">out</span>.print( <span class="character">&quot;</span><span class="character">Enter the number 1 : </span><span class="character">&quot;</span> ) ;
+12         number1 = input.nextDouble( );       
+13         System.<span class="ST1">out</span>.print ( <span class="character">&quot;</span><span class="character">Enter the number 2 : </span><span class="character">&quot;</span> ) ;
+14         number2 = input.nextDouble( );     
+15         
+16     <span class="keyword-directive">if</span> ( number1 &gt;= number2 &amp;&amp; number1 != number2 ) {
+17         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">number1 == number2 &amp;&amp; number1 != number2 </span><span class="character">&quot;</span> ) ;
+18         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">number1 == number2 and number1 != number2 </span><span class="character">&quot;</span> ) ;
+19         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">( &amp;&amp; ) means logical and </span><span class="character">&quot;</span> ) ; 
+20         
+21     } <span class="keyword-directive">else</span> <span class="keyword-directive">if</span> ( number1 == number2 || number1 &lt; number2 ) {
+22         System.<span class="ST1">out</span>.println (<span class="character">&quot;</span><span class="character"> number1 == number2 || number1 != number2 </span><span class="character">&quot;</span> ) ;
+23         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">number1 == number2 or number1 != number2 </span><span class="character">&quot;</span> ) ;
+24         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">( || ) means logical or </span><span class="character">&quot;</span> ) ; 
+25         
+26     } <span class="keyword-directive">else</span> <span class="keyword-directive">if</span> ( ( number1 &gt; number2 ) != ( number1 &lt;= number2 ) ) {
+27         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">number1==number2 or number1!=number2 </span><span class="character">&quot;</span> ) ;
+28         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">number1==number2 or number1!=number2 </span><span class="character">&quot;</span> ) ;
+29         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">( ! ) means logical not </span><span class="character">&quot;</span> ) ;   
+30         
+31     }<span class="keyword-directive">else</span>{       
+32         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">Not mached with logic ! </span><span class="character">&quot;</span> ) ;
+33          }                              
+34     }
+35 }
+36 <span class="comment">// output :</span>
+37 <span class="comment">//Enter the number 1 : 50</span>
+38 <span class="comment">//Enter the number 2 : 5</span>
+39 <span class="comment">//number1 == number2 &amp;&amp; number1 != number2 </span>
+40 <span class="comment">//number1 == number2 and number1 != number2 </span>
+41 //( &amp;&amp; ) means logical and 
+</pre></body>
+</html>

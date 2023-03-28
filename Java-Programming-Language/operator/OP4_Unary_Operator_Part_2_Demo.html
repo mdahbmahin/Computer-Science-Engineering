@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>OP4_Unary_Operator_Part_2_Demo.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+pre {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+table {color: #888888; background-color: #313335; font-family: Monospaced}
+.whitespace {color: #505050}
+.keyword-directive {color: #cc7832}
+.comment {color: #808080}
+.character {color: #6a8759}
+.ST1 {color: #9876aa; font-family: Monospaced; font-style: italic}
+.number {color: #6897bb}
+.ST0 {color: #ffc66d; font-family: Monospaced; font-style: italic}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">C:\Users\MD MAHIN HOSSAIN\Documents\NetBeansProjects\MainCode1\src\MainCodePackage\OP4_Unary_Operator_Part_2_Demo.java</td></tr></table>
+<pre>
+ 1 <span class="comment">// index : Unary  operator part 2 method .</span>
+ 2 <span class="keyword-directive">package</span> MainCodePackage ;     <span class="comment">// name of package under the project .</span>
+ 3 <span class="comment">//* @Author and code written by MD MAHIN HOSSAIN</span>
+ 4 <span class="comment">// Code Compile date : 16:6:2019:: 09:19:48.9 pm</span>
+ 5 <span class="keyword-directive">public</span> <span class="keyword-directive">class</span> OP4_Unary_Operator_Part_2_Demo {
+ 6     <span class="keyword-directive">public</span> <span class="keyword-directive">static</span> <span class="keyword-directive">void</span> <span class="ST0">main</span> ( String[ ] args ) {
+ 7         <span class="comment">//Topics subject : Increment and Decrement .</span>
+ 8         <span class="comment">//Index : postfix increment = x++</span>
+ 9         <span class="comment">//Index :prefix increment = ++x</span>
+10         <span class="comment">//Index :postfix decrement = x--</span>
+11         <span class="comment">//Index : prefix increment = --x</span>
+12         <span class="keyword-directive">int</span> x = <span class="number">25</span> ;    <span class="comment">//variable declaration .</span>
+13         <span class="keyword-directive">int</span> y ;  <span class="comment">//variable declaration .</span>
+14          y = x++ ; <span class="comment">// postfix increment = x++</span>
+15          System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">y : </span><span class="character">&quot;</span> + y ) ;  <span class="comment">//y = 25</span>
+16          y = x;
+17          System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">y : </span><span class="character">&quot;</span> + y ) ;  <span class="comment">//y = 26</span>
+18 <span class="comment">//______________________________________________________________________________</span>
+19          y = ++x ;  <span class="comment">//prefix increment = ++x</span>
+20          System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">y : </span><span class="character">&quot;</span> + y ) ;  <span class="comment">// y = 27</span>
+21          y = x;
+22          System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">y : </span><span class="character">&quot;</span> + y );  <span class="comment">//y = 27</span>
+23 <span class="comment">//==============================================================================</span>
+24          y = x-- ; <span class="comment">// postfix decrement = x--</span>
+25          System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">y : </span><span class="character">&quot;</span> + y ) ;  <span class="comment">//y = 27</span>
+26          y = x ;
+27          System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">x : </span><span class="character">&quot;</span> + y ) ;  <span class="comment">//y = 26</span>
+28 <span class="comment">//______________________________________________________________________________</span>
+29          y = --x ;  <span class="comment">//prefix decrement = --x</span>
+30          System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">y : </span><span class="character">&quot;</span> + y ) ;  <span class="comment">// y = 25</span>
+31          y = x ;
+32          System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">x : </span><span class="character">&quot;</span> + y ) ;  <span class="comment">//y = 25   </span>
+33     }
+34 }
+35 <span class="comment">//output :</span>
+36 <span class="comment">//y : 25</span>
+37 <span class="comment">//y : 26</span>
+38 <span class="comment">//y : 27</span>
+39 <span class="comment">//y : 27</span>
+40 <span class="comment">//y : 27</span>
+41 <span class="comment">//x : 26</span>
+42 <span class="comment">//y : 25</span>
+43 //x : 25
+</pre></body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>CS8_Switch_Demo.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+pre {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+table {color: #888888; background-color: #313335; font-family: Monospaced}
+.whitespace {color: #505050}
+.keyword-directive {color: #cc7832}
+.comment {color: #808080}
+.character {color: #6a8759}
+.ST1 {color: #9876aa; font-family: Monospaced; font-style: italic}
+.number {color: #6897bb}
+.ST0 {color: #ffc66d; font-family: Monospaced; font-style: italic}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">C:\Users\MD MAHIN HOSSAIN\Documents\NetBeansProjects\MainCode1\src\MainCodePackage\CS8_Switch_Demo.java</td></tr></table>
+<pre>
+ 1 <span class="comment">// index : If control statement method .</span>
+ 2 <span class="keyword-directive">package</span> MainCodePackage ;  <span class="comment">//name of package under the project </span>
+ 3 <span class="keyword-directive">import</span> java.util.Scanner ; <span class="comment">//must need import scanner system for user input .</span>
+ 4 <span class="comment">//* @Author and code written by MD MAHIN HOSSAIN</span>
+ 5 <span class="comment">// Code Compile date : 17:6:2019:: 08:36:21.7 am</span>
+ 6 <span class="keyword-directive">public</span> <span class="keyword-directive">class</span> CS8_Switch_Demo {
+ 7 <span class="keyword-directive">public</span> <span class="keyword-directive">static</span> <span class="keyword-directive">void</span> <span class="ST0">main</span> ( String[ ] args ) {
+ 8         
+ 9        Scanner input = <span class="keyword-directive">new</span> Scanner ( System.<span class="ST1">in</span> ) ;
+10         <span class="keyword-directive">int</span> x , <span class="comment">y</span> ;
+11        System.<span class="ST1">out</span>.print ( <span class="character">&quot;</span><span class="character"> Enter your number : </span><span class="character">&quot;</span> ) ;
+12                           
+13         x = input.nextInt ( ) ;
+14        System.<span class="ST1">out</span>.print ( <span class="character">&quot;</span><span class="character">your number is : </span><span class="character">&quot;</span> ) ;
+15               
+16              <span class="keyword-directive">switch</span> ( x ){
+17                  <span class="keyword-directive">case</span> <span class="number">1</span> :
+18                      System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character"> one</span><span class="character">&quot;</span> ) ;
+19                      <span class="keyword-directive">break</span>;
+20                  <span class="keyword-directive">case</span> <span class="number">2</span> :
+21                      System.<span class="ST1">out</span>.println (<span class="character">&quot;</span><span class="character"> two </span><span class="character">&quot;</span> ) ;
+22                      <span class="keyword-directive">break</span>;
+23                  <span class="keyword-directive">case</span> <span class="number">3</span> :
+24                      System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">three</span><span class="character">&quot;</span> ) ;
+25                      <span class="keyword-directive">break</span>;
+26                  <span class="keyword-directive">case</span> <span class="number">4</span> :
+27                      System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">four</span><span class="character">&quot;</span> ) ;
+28                      <span class="keyword-directive">break</span>;
+29                  <span class="keyword-directive">default</span> :
+30                      System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">no number</span><span class="character">&quot;</span> ) ;
+31               }     
+32     }
+33 }
+34 <span class="comment">//output :</span>
+35 <span class="comment">//Enter your number : 1</span>
+36 <span class="comment">//your number is :  one</span>
+37 <span class="comment">//BUILD SUCCESSFUL (total time: 13 seconds)</span>
+38 
+</pre></body>
+</html>

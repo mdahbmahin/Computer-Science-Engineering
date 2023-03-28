@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>OP8_Bitwise_Operator_Demo.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+pre {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+table {color: #888888; background-color: #313335; font-family: Monospaced}
+.whitespace {color: #505050}
+.keyword-directive {color: #cc7832}
+.comment {color: #808080}
+.character {color: #6a8759}
+.ST1 {color: #9876aa; font-family: Monospaced; font-style: italic}
+.number {color: #6897bb}
+.ST0 {color: #ffc66d; font-family: Monospaced; font-style: italic}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">C:\Users\MD MAHIN HOSSAIN\Documents\NetBeansProjects\MainCode1\src\MainCodePackage\OP8_Bitwise_Operator_Demo.java</td></tr></table>
+<pre>
+ 1 <span class="comment">// index : Bitwise operator method .</span>
+ 2 <span class="keyword-directive">package</span> MainCodePackage ;
+ 3 <span class="comment">//* @Author and code written by MD MAHIN HOSSAIN</span>
+ 4 <span class="comment">// Code Compile date : 16:6:2019:: 09:59:45.6 pm</span>
+ 5 <span class="keyword-directive">public</span> <span class="keyword-directive">class</span> OP8_Bitwise_Operator_Demo {
+ 6     <span class="keyword-directive">public</span> <span class="keyword-directive">static</span> <span class="keyword-directive">void</span> <span class="ST0">main</span> ( String[ ] args ) {       
+ 7           <span class="keyword-directive">int</span>  a = <span class="number">32</span> ;
+ 8           <span class="keyword-directive">int</span>  b = <span class="number">12</span> ;
+ 9           <span class="keyword-directive">int</span> c ;        
+10           c =  a&amp;b ; <span class="comment">//&#39;&amp;&#39; means multiplication between two parameters .</span>
+11           System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character"> a &amp; b(&#39;&amp;&#39; is bitwise and ) = </span><span class="character">&quot;</span> + c ) ;  
+12                 
+13           c = a|b ; <span class="comment">// &#39;|&#39; means addition between two parameters .</span>
+14           System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character"> a | b (&#39;|&#39; is bitwise or ) = </span><span class="character">&quot;</span> + c ) ;     
+15          
+16           c = a^b ;<span class="comment">// &#39;^&#39; means addition between two parameters .</span>
+17           System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character"> a ^ b (&#39;^&#39; is bitwise Exor )  = </span><span class="character">&quot;</span> + c ) ; 
+18                          
+19           c = a &gt;&gt; <span class="number">3</span> ; <span class="comment">// to the right devide by 2 for 3 sequence</span>
+20           System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character"> c = a &gt;&gt; 3 </span><span class="character">&quot;</span>  + c ) ; <span class="comment">//ans = 4</span>
+21          
+22           c = a &lt;&lt; <span class="number">3</span> ;<span class="comment">// to the left multiplication by 2 for 3 sequence</span>
+23           System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character"> c = a &lt;&lt; 3 </span><span class="character">&quot;</span>  + c ) ; <span class="comment">//ans = 256   </span>
+24     }
+25 }
+26 <span class="comment">//__output :</span>
+27 <span class="comment">//a &amp; b(&#39;&amp;&#39; is bitwise and ) = 0</span>
+28 <span class="comment">// a | b (&#39;|&#39; is bitwise or ) = 44</span>
+29 <span class="comment">// a ^ b (&#39;^&#39; is bitwise Exor )  = 44</span>
+30 <span class="comment">// c = a &gt;&gt; 3 4</span>
+31 // c = a &lt;&lt; 3 256
+</pre></body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>OP1_Arithmatic_Operator_Demo.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+pre {color: #a9b7c6; background-color: #2b2b2b; font-family: Monospaced}
+table {color: #888888; background-color: #313335; font-family: Monospaced}
+.whitespace {color: #505050}
+.keyword-directive {color: #cc7832}
+.comment {color: #808080}
+.character {color: #6a8759}
+.ST1 {color: #9876aa; font-family: Monospaced; font-style: italic}
+.ST0 {color: #ffc66d; font-family: Monospaced; font-style: italic}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">C:\Users\MD MAHIN HOSSAIN\Documents\NetBeansProjects\MainCode1\src\MainCodePackage\OP1_Arithmatic_Operator_Demo.java</td></tr></table>
+<pre>
+ 1 <span class="comment">// index : Arithmatic operator method .</span>
+ 2 <span class="keyword-directive">package</span> MainCodePackage ;     <span class="comment">//name of package under the project .</span>
+ 3 <span class="keyword-directive">import</span> java.util.Scanner ;   <span class="comment">//must need import scanner system for user input .</span>
+ 4 <span class="comment">//* @Author and code written by MD MAHIN HOSSAIN</span>
+ 5 <span class="comment">// Code Compile date : 16:6:2019:: 09:01:34.7 pm</span>
+ 6 <span class="keyword-directive">public</span> <span class="keyword-directive">class</span> OP1_Arithmatic_Operator_Demo {
+ 7     <span class="keyword-directive">public</span> <span class="keyword-directive">static</span> <span class="keyword-directive">void</span> <span class="ST0">main</span> ( String[ ] args ) {
+ 8         
+ 9         Scanner input = <span class="keyword-directive">new</span> Scanner ( System.<span class="ST1">in</span> ) ;  <span class="comment">//scanner variable .</span>
+10          <span class="keyword-directive">double</span> num1 , num2 , result  ;  <span class="comment">//variable declaration .</span>
+11 
+12          System.<span class="ST1">out</span>.print ( <span class="character">&quot;</span><span class="character">Enter your Number 1 : </span><span class="character">&quot;</span> ) ;  <span class="comment">//user inputing.....</span>
+13          num1 = input.nextDouble() ;
+14 
+15         System.<span class="ST1">out</span>.print ( <span class="character">&quot;</span><span class="character">Enter your Number 2 : </span><span class="character">&quot;</span> ) ;   <span class="comment">//user inputing.....</span>
+16         num2 = input.nextDouble ( ) ;      
+17 <span class="comment">//_______Arithmatic opearators = ( +,-,*,/,% )         </span>
+18         result = num1 + num2 ;
+19         System.<span class="ST1">out</span>.println ( <span class="character">&quot;</span><span class="character">addition is : </span><span class="character">&quot;</span> + result ) ;
+20          
+21          result = num1 - num2 ;        
+22         System.<span class="ST1">out</span>.println (<span class="character">&quot;</span><span class="character">substraction is : </span><span class="character">&quot;</span> + result ) ;
+23         
+24          result = num1 * num2 ; 
+25         System.<span class="ST1">out</span>.println (<span class="character">&quot;</span><span class="character">multiplication is : </span><span class="character">&quot;</span> + result ) ;
+26                
+27          result = num1 / num2 ;        
+28         System.<span class="ST1">out</span>.println (<span class="character">&quot;</span><span class="character">devidation is : </span><span class="character">&quot;</span> + result ) ;       
+29 
+30           result = num1 % num2 ;
+31         System.<span class="ST1">out</span>.println (<span class="character">&quot;</span><span class="character">reminder is : </span><span class="character">&quot;</span> + result ) ;          
+32     }
+33 }
+34 <span class="comment">//_______block end</span>
+35 <span class="comment">//output :</span>
+36 <span class="comment">//Enter your Number 1 : 50</span>
+37 <span class="comment">//Enter your Number 2 : 5</span>
+38 <span class="comment">//addition is : 55.0</span>
+39 <span class="comment">//substraction is : 45.0</span>
+40 <span class="comment">//multiplication is : 250.0</span>
+41 <span class="comment">//devidation is : 10.0</span>
+42 //reminder is : 0.0
+</pre></body>
+</html>
