@@ -3,7 +3,7 @@ int main(){
   
 printf("best beautiful sigma male rules");
   
-printf("sigma rule of gitmen #0158 - :   They have an ambiguous morality");
+printf("sigma rule of gitmen #2547 - :   please connect");
 printf("sigma rule of gitmen #2016 - :   Take Full Responsibility");
 
 printf("sigma rule of introvertmen #0158 - :   Be calm");
